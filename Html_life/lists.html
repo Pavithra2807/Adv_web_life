@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Ordered list </h2>
+    <ol type="I">
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li>helooo</li>
+    </ol>
+
+    <ol type="I" reversed>
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li>helooo</li>
+    </ol>
+
+    <ol type="1" start="2"> #start works only with numbers.
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li>helooo</li>
+    </ol>
+
+    <ol type="1">
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li value="200">helooo</li>
+        <li>hoooo</li>
+        <li>hoooo</li>
+    </ol>
+
+    <ol type="a" start="5">
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li>helooo</li>
+    </ol>
+
+    <h2>Unordered list</h2>
+    <ul type="disk">
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li>helooo</li>
+    </ul>
+
+    <ul type="circle">
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li>helooo</li>
+    </ul>
+
+    <ul type="square">
+        <li>heyyy</li>
+        <li>hiiii</li>
+        <li>helooo</li>
+    </ul>
+
+    <h2>Description list</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+    </dl>
+
+
+    <h2>Nested list</h2>
+    <ol>
+        <li> Frontend
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+        </li>
+
+        <li> Backend
+            <ul type="square">
+                <li>Nodejs</li>
+                <li>Express</li>
+                <li>python</li>
+            </ul>
+        </li>
+
+        <li> Database
+            <ul type="disc">
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </li>
+    </ol>
+
+
+
+
+
+    <h1> List Examples</h1>
+    <ol type="I">
+        <li>List item 1
+            <ol type="a">
+                <li> Nested item 1.1</li>
+                <li> Nested item 1.2</li>
+            </ol>
+        </li>
+
+        <li>List item 2
+            <ol type="1">
+                <li> Nested item 2.1</li>
+                <li> Nested item 2.2</li>
+                <ul type="circle">
+                    <li> Nested item 2.2.1</li>
+                    <li> Nested item 2.2.2</li>
+                    <ul>
+                        <li> Nested item 2.2.2.1</li>
+                        <li> Nested item 2.2.2.2</li>
+                    </ul>
+                    <li> Nested item 2.2.3</li>
+
+                </ul>
+                </ul>
+                <li> Nested item 2.3</li>
+            </ol>
+        </li>
+
+        <li>List item 3
+            <ul type="disc">
+                <li> Nested item 3.1</li>
+                <li> Nested item 3.2</li>
+                <li> Nested item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+
+    <dl>
+        <dt> COMP 249</dt>
+        <dd>Object-Oriented Programming 11</dd>
+        <dt> Soen287</dt>
+        <dd>Web Programming</dd>
+    </dl>
+    This is a<sup>5</sup> test<sub>9</sub> for assignment 1.<br>
+    <b> Figure 1.</b> List illlustration in HTML.
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width:500px;
+            height:500px;
+            border: solid 2px;
+            position:relative;
+        }
+        .box{
+            border:black solid;
+            width:100px;
+            height:100px;
+            background-color: cadetblue;
+            color:black;
+        }
+        #box-1{
+            position: absolute;
+            left:0;
+        }
+        #box-2{
+            position:absolute;
+            right: 0;
+    
+        }
+        #box-3{
+            position:absolute;
+            bottom: 0;
+            right: 0;
+        }
+        #box-4{
+            position:absolute;
+            bottom:0;
+        }
+        .main2{
+             width:300px;
+            height:300px;
+            border: solid 2px;
+            position: absolute;
+            left:100px;
+            right: 200px;
+            top:100px;
+            bottom: 100px;
+        }
+         .boxx{
+            border:black solid;
+            width:100px;
+            height:100px;
+            background-color:grey;
+            color:black;
+        }
+        #boxx-1{
+            position:absolute;
+            left:0;
+        }
+        #boxx-2{
+            position:absolute;
+            right: 0;
+        }
+        #boxx-3{
+            position: absolute;
+            right:0;
+            bottom: 0;
+        }
+        #boxx-4{
+            position:absolute;
+            bottom:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box" id="box-1">Box-1</div>
+        <div class="box" id="box-2">Box-2</div>
+        <div class="box" id="box-3">Box-3</div>
+        <div class="box" id="box-4">Box-4</div>
+        <div class="main2">
+            <div class="boxx" id="boxx-1">Box-01</div>
+            <div class="boxx" id="boxx-2">Box-02</div>
+            <div class="boxx" id="boxx-3">Box-03</div>
+            <div class="boxx" id="boxx-4">Box-04</div>
+        </div>
+    </div>
+</body>
+</html>
