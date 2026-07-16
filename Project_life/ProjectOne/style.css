@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Header section starts from here */
+header{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid;
+}
+nav{
+    display: flex;
+    height: 100%;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+.right-nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0px 30px;
+}
+.right-nav ul li{
+    list-style: none;
+    font-size: 14px;
+}
+.right-nav button{
+    padding:10px 15px;
+    color: white;
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: large;
+}
+ .left-nav img{
+    width: 130px;
+    height: 130px;
+ }
+
+ 
+/* main section starts here */
+main{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    align-items: end;
+}
+.left-main{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 110px;
+    flex-direction: column;
+    /* gap: 80px 0px; */
+}
+.left-main h1{
+    font-size: 7rem;
+    font-weight: 100;
+    line-height: 80px;
+    /* letter-spacing: -3px;   */
+}
+.left-main p{
+    margin-top: 70px;
+    margin-bottom: 45px;
+    font-size: 24px;
+}
+.left-main button{
+    width: 190px;
+    padding:10px 15px;
+    color: white;
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size:20px;
+    border: none;
+    font-weight: bolder;
+}
+.right-main{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.right-main img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* position: absolute; */
+    /* top: 20px;
+    left: 450px; */
+}
+
+
+/* Footer section */
+footer{
+    width: 100vw;
+    height: calc(100vh - 80vh - 70px);
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+footer ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 13px;
+    border-top: 1px solid black;
+}
+footer ul li{
+    list-style: none;
+}
