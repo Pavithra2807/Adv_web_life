@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main1{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 600px;
+            border:2px solid;
+            background-color:rgb(186, 76, 210);
+            border-radius: 10px;
+            align-items: flex-start;
+            padding: 5px;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .box{
+            border: 2px solid;
+            border-radius: 10px;
+            background-color: goldenrod;
+            width: 100px;
+            height: 65px;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .main1 .box{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        #box1{
+            flex-basis: 150px;
+        }
+        #box3{
+            flex-basis: 150px;
+        }
+        .main2{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            width: 600px;
+            border:2px solid;
+            background-color:rgb(186, 76, 210);
+            border-radius: 10px;
+            align-items: flex-start;
+            padding: 8px;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .main2 .box{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        #boxx1{
+            flex-basis: 150px;
+        }
+        #boxx3{
+            flex-basis: 150px;
+        }
+        #boxx4{
+            flex-basis: 150px;
+        }
+        #boxx6{
+            flex-basis: 150px;
+        }
+        .main3{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px 50px;
+            width: 600px;
+            border:2px solid;
+            background-color:rgb(186, 76, 210);
+            border-radius: 10px;
+            align-items: flex-start;
+            padding: 8px;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        #boxxx1{
+            flex-basis: 150px;
+        }
+        #boxxx3{
+            flex-basis: 150px;
+        }
+        #boxxx4{
+            flex-basis: 150px;
+        }
+        #boxxx6{
+            flex-basis: 150px;
+        }
+        .main3 .box{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        p{
+            font-size: 25px;
+            color:grey;
+            font-family: sans-serif;
+            margin: 15px 0 8px 0;
+            font-weight:normal;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <p>gap: 20px</p>
+    <div class="main1">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+    </div>
+    <p>gap: 50px</p>
+    <div class="main2">
+        <div class="box" id="boxx1"></div>
+        <div class="box" id="boxx2"></div>
+        <div class="box" id="boxx3"></div>
+        <div class="box" id="boxx4"></div>
+        <div class="box" id="boxx5"></div>
+        <div class="box" id="boxx6"></div>
+    </div>
+    <p>gap: 20px 50px</p>
+    <div class="main3">
+        <div class="box" id="boxxx1"></div>
+        <div class="box" id="boxxx2"></div>
+        <div class="box" id="boxxx3"></div>
+        <div class="box" id="boxxx4"></div>
+        <div class="box" id="boxxx5"></div>
+        <div class="box" id="boxxx6"></div>
+    </div>
+</body>
+</html>
