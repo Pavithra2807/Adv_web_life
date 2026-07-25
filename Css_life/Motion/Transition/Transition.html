@@ -26,31 +26,25 @@
         .child{
             width: 100px;
             height: 100px;
-            /* background-color: cadetblue; */
-            /* transition-property: all; */
-            transition-property: transform ,border-radius;
-            transition-duration: 4s;
-            transition-timing-function: ease;
-            transition-timing-function: ease-in;
-            transition-timing-function: ease-out;
-            transition-timing-function:cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            transition-delay: 3s;
+            color: white;
+            animation-name: pavi;
+            animation-duration: 4s;
+            background-color: cadetblue;
         }
-        .child:hover{
-            transform: translate(500px) skew(30deg) rotate(45deg);
-            border-radius: 50%;
-        }
-        img{
-            width:100px;
-            height: 100px;
-            border-radius: 50%;
+        @keyframes pavi {
+            from{
+                transform: translate(0px,0px);
+            }
+            to{
+                transform: translate(500px,0px);
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="child">
-            <img src="./Elena.webp" alt="">
+            Box
         </div>
     </div>
 </body>
