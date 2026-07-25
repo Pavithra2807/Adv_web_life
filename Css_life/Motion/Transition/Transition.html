@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 600px;
+            height: 400px;
+            border: 2px white dotted;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            /* background-color: cadetblue; */
+            /* transition-property: all; */
+            transition-property: transform ,border-radius;
+            transition-duration: 4s;
+            transition-timing-function: ease;
+            transition-timing-function: ease-in;
+            transition-timing-function: ease-out;
+            transition-timing-function:cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            transition-delay: 3s;
+        }
+        .child:hover{
+            transform: translate(500px) skew(30deg) rotate(45deg);
+            border-radius: 50%;
+        }
+        img{
+            width:100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            <img src="./Elena.webp" alt="">
+        </div>
+    </div>
+</body>
+</html>
