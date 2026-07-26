@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+
+        header {
+            width: 100%;
+            height: 120px;
+            border-bottom: 1px solid;
+        }
+
+        nav {
+            display: flex;
+            height: 100%;
+            padding: 0px 100px;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .left-nav{
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .right-nav ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 0px 30px;
+            color: white;
+        }
+        .right-nav button{
+            padding:5px 10px;
+            color: black;
+            background-color:cornflowerblue;
+            border: 1px solid cornflowerblue;
+            border-radius: 40px;
+            font-weight: bolder;
+            font-size:small;
+        }
+        .center-nav{
+            display: flex;
+        }
+        input{
+            width: 380px;
+            border-radius: 30px;
+            padding: 5px 10px;
+        }
+
+        .sidebar{
+            width: 200px;
+            background-color:rgba(20, 19, 19, 0.874);
+            padding: 50px;
+            height: 500px;
+        }
+        .sidebar li{
+            color: white;
+            list-style: none;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            gap:10px;
+            border-radius: 6px;
+            font-size: larger;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left-nav"><span>Spotify</span></div>
+            <div class="center-nav">🏡<span></span>
+                <search>
+                    <input type="text" placeholder="🔍What do you want to play?">
+                </search>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li>⬇️Install App</li>
+                    <li>🔔</li>
+                    <button>P</button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <ul>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Library</li>
+                <li>Music</li>
+                <li>Premium</li>
+                <li>Create</li>
+                <li>Podcasts</li>
+            </ul>
+        </div>
+
+        <div class="main1">
+            <h2>Browse all</h2>
+            <div class="box1">
+                <img src="" alt="">
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
