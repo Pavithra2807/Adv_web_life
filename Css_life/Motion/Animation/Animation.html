@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 600px;
+            height: 400px;
+            border: 2px white dotted;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            color: white;
+            animation-name: pavi;
+            animation-duration: 2s;
+            /* animation-timing-function:ease-in-out; */
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-direction: alternate;
+            /* animation-direction: alternate-reverse; */
+            background-color: cadetblue;
+        }
+        /* @keyframes pavi {
+            from{
+                transform: translate(0px,0px) rotate(0deg);
+            }
+            to{
+                transform: translate(500px,0px) rotate(360deg);
+            }
+        } */
+         @keyframes pavi {
+            0%{
+                transform: translate(0px,0px) rotate(0deg);
+            }
+            25%{
+                transform: translate(500px,0px) rotate(90deg);
+            }
+            50%{
+                transform: translate(300px,500px) rotate(180deg);
+            }
+            75%{
+                transform: translate(0px,300px) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">Box</div>
+    </div>
+</body>
+</html>
