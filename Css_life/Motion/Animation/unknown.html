@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        /* for mentioning min & max width */
+        @media(min-width:800px) and (max-width:1200px){
+            body{
+                background-color: crimson;
+            }
+        }
+        @media(width<=1200){
+            body{
+                background-color: blueviolet;
+            }
+        }
+
+        /* between sizes */
+        @media(800px<=width<=1200){
+            body{
+                background-color: darkmagenta;
+            }
+        }
+
+        /* for presenting in landscape or portrait */
+        @media(orientation: landscape){
+            body{
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

@@ -62,22 +62,81 @@
             border-radius: 30px;
             padding: 5px 10px;
         }
-
+        main{
+            display:flex;
+        }
         .sidebar{
             width: 200px;
             background-color:rgba(20, 19, 19, 0.874);
             padding: 50px;
-            height: 500px;
+            height: 520px;
+            border-right: 6px solid;
         }
         .sidebar li{
             color: white;
             list-style: none;
             padding: 10px 12px;
-            display: flex;
+            display:flex;
             align-items: center;
             gap:10px;
             border-radius: 6px;
             font-size: larger;
+        }
+        .main1{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:16px;
+            padding: 24px;
+            background-color: rgba(20, 19, 19, 0.874);
+        }
+        .box{
+            color: white;
+            font-size:larger;
+            font-weight: bolder;
+            width: 290px;
+            height:130px;
+            padding:16px;
+            border-radius: 8px;
+        }
+        .main1 h2{
+            color: white;
+            grid-column: 1/-1;
+        }
+        #a{
+            background-color:rgb(227, 53, 108);
+        }
+        #b{
+            background-color: darkcyan;
+        }
+        #c{
+            background-color: rgb(128, 0, 128);
+        }
+        #d{
+            background-color: navy;
+        }
+        #e{
+            background-color:green;
+        }
+        #f{
+            background-color:rgb(117, 117, 232);
+        }
+        #g{
+            background-color:rgb(127, 180, 180);
+        }
+        #h{
+            background-color: pink;
+        }
+        #i{
+            background-color:rgb(117, 117, 232);
+        }
+        #j{
+            background-color:rgb(54, 54, 213);
+        }
+        #k{
+            background-color: plum;
+        }
+        #l{
+            background-color: red;
         }
     </style>
 
@@ -117,10 +176,18 @@
 
         <div class="main1">
             <h2>Browse all</h2>
-            <div class="box1">
-                <img src="" alt="">
-            </div>
-
+            <div class="box" id="a">Music</div>
+            <div class="box" id="b">Podcasts</div>
+            <div class="box" id="c">Live Events</div>
+            <div class="box" id="d">Made For You</div>
+            <div class="box" id="e">New Releases</div>
+            <div class="box" id="f">Hip-Hop</div>
+            <div class="box" id="g">Pop</div>
+            <div class="box" id="h">Mood</div>
+            <div class="box" id="i">Dance/Electronic</div>
+            <div class="box" id="j">Podcast Charts</div>
+            <div class="box" id="k">PodcastNew Releases</div>
+            <div class="box" id="l">Video Podcasts</div>
         </div>
     </main>
 
