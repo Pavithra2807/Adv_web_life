@@ -116,6 +116,7 @@ nav a:hover{
 }
 .card1,.card2,.card3{
     width: 300px;
+    /* height: 300px; */
     padding: 35px 25px;
     border-radius: 15px;
     background: whitesmoke;
