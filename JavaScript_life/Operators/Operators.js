@@ -36,5 +36,5 @@ console.log(m<=20);
 let p=6;
 let q=3;
 console.log(p<10 && p>1);
-console.log(p==5 || q==10);
+console.log(p==7 || q==10);
 console.log(!(p==q));
