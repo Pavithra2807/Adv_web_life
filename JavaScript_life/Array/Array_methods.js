@@ -120,10 +120,30 @@ let e1 = [1,2,3,4,4,5]
 console.log(e1.lastIndexOf(4));
 
 //& 12. includes () -
-let f1 = ['Good','Evening']
+let f1 = ['Good','Evening','afternoon','night','morning']
 console.log(f1.includes('Good')); //?op : true
 
 //& 13. entries() - gives normal array in an interator method() - key:value pairs ---> (key:index)
 for(let data of f1.entries()){
     console.log(data);
 }
+
+//& to fetch only values.
+for(let data of f1.values()){
+    console.log(data);
+}
+
+//& to fetch only keys.
+for(let data of f1.keys()){
+    console.log(data);
+}
+
+
+//& 14. sort() - sorts in ascending or descending order based on ascii values.
+let colors = ['red','black','white','velvet','maroon']
+let num = [1,6,4,7,1,0]
+console.log(colors.sort());
+console.log(num.sort()); 
+
+let numbers = [1,34,56,23,5,776,5]
+console.log(numbers.sort((a,b)=>a-b)); //logic : if a-b<0 --> a/b , a-b>0 --> b/a
