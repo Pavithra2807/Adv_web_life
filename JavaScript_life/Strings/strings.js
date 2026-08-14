@@ -72,7 +72,7 @@ let str1 = 'java_script'
 console.log(str1.charAt(5)); //output:s
 console.log(str1.charAt(-2)); //output: prints nothing.
 
-//& 3. charCodeAt() - it returns unicode value og the characters
+//& 3. charCodeAt() - it returns unicode value of the characters
 let str2 = 'java_script'
 console.log(str2.charCodeAt(2)); //output:s
 
@@ -169,7 +169,9 @@ console.log(iinfo.slice(8,21));
 console.log(iinfo.slice(-5));
 
 //&  substring
-let iinnfo = 'Welcome to javascript life'
+let iinnfo = 'welcome to javascript life'
 console.log(iinnfo.substring(8));
 console.log(iinnfo.substring(8,21));
 console.log(iinnfo.substring(-5));
+
+
