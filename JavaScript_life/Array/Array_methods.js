@@ -147,3 +147,8 @@ console.log(num.sort());
 
 let numbers = [1,34,56,23,5,776,5]
 console.log(numbers.sort((a,b)=>a-b)); //logic : if a-b<0 --> a/b , a-b>0 --> b/a
+
+//& 15 find() -
+let numbers1 = [1,34,56,23,5,776,5]
+console.log(numbers1.find((numbers1)=>numbers1>56))
+
